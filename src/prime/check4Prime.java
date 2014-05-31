@@ -1,6 +1,6 @@
 package prime;
 
-//p
+//
 import java.lang.*;
 
 public class check4Prime {
