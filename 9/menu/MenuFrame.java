@@ -86,11 +86,11 @@ public class MenuFrame extends JFrame
       // Ikony
 
       Action cutAction = new TestAction("Wytnij");
-      cutAction.putValue(Action.SMALL_ICON, new ImageIcon("cut.gif"));
+      cutAction.putValue(Action.SMALL_ICON, new ImageIcon("C://Program Files/Java/workspace/Projekt/resources/cut.gif"));
       Action copyAction = new TestAction("Kopiuj");
-      copyAction.putValue(Action.SMALL_ICON, new ImageIcon("copy.gif"));
+      copyAction.putValue(Action.SMALL_ICON, new ImageIcon("C://Program Files/Java/workspace/Projekt/resources/copy.gif"));
       Action pasteAction = new TestAction("Wklej");
-      pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("paste.gif"));
+      pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("C://Program Files/Java/workspace/Projekt/resources/paste.gif"));
 
       JMenu editMenu = new JMenu("Edytuj");
       editMenu.add(cutAction);
