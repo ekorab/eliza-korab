@@ -20,8 +20,8 @@ import static org.junit.Assert.*;
 		
 		@Before
 		public void setUp() {
-			//driver = new ChromeDriver();
-			driver = new FirefoxDriver();
+			driver = new ChromeDriver();
+			//driver = new FirefoxDriver();
 			driver.get("http://dl.dropbox.com/u/55228056/Locators.html");
 		}
 		
