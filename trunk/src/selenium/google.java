@@ -12,6 +12,7 @@ public class google {
   private WebDriver driver;
   @Before
   public void setUp() throws Exception {
+    //driver = new FirefoxDriver();
     driver = new FirefoxDriver();
   }
 // Search using keyword through Google search
